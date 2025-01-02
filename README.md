@@ -19,6 +19,32 @@ Before compiling and using the GPU extension module, ensure that your system mee
 #### Usage
 
 The GPU-accelerated modules are written in CUDA and need to be compiled using nvcc. Below are the compilation and execution commands for each file.
+- basic_functions/pagerank.cu
+
+```shell
+nvcc -o pagerank pagerank.cu
+./pagerank <path_to_dataset>
+```
+
+- basic_functions/ECL-MST_10.cu
+
+```shell
+nvcc -O3 -std=c++14 -arch=sm_70 ECL-MST_10.cu -o ecl_mst
+or you can use 'make' to compile
+then -> ./ecl_mst <path_to_dataset>
+```
+- basic_functions/cluster.cu
+
+```shell
+nvcc -O2 -std=c++14 cluster.cu -o cluster
+./cluster <path_to_dataset> <directed|undirected>
+```
+- basic_functions/gpu_graph_scc.cu
+
+```shell
+nvcc -O2 -std=c++14 gpu_graph_scc.cu -o cc
+./cc <path_to_dataset> <directed|undirected>
+```
 
 - structural_hole/effective_size.cu
 
