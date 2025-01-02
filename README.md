@@ -17,8 +17,14 @@ Before compiling and using the GPU extension module, ensure that your system mee
 - **Build Tools**: Ensure you have nvcc (CUDA compiler) installed and properly configured in your system’s PATH.
 
 #### Usage
+**Here is the demo video of our project, we uploaded him to the bilibili platform and also put into our project repository.**
+
+**【086-Fudan_DataNET_1——项目展示视频】 https://www.bilibili.com/video/BV1G36qYaEPC/?share_source=copy_web&vd_source=ee9f55a2cfdec247565d62945e37ce8e**
 
 The GPU-accelerated modules are written in CUDA and need to be compiled using nvcc. Below are the compilation and execution commands for each file.
+
+
+
 - basic_functions/pagerank.cu
 
 ```shell
@@ -68,6 +74,8 @@ nvcc -std=c++11 hierarchy.cu -o hierarchy
 ```
 
 **Note**: Replace <path_to_dataset> with the actual path to your graph dataset. The dataset should be formatted with each line representing an edge in the format source_node destination_node [weight]. If the weight is not specified, it defaults to 1.0.
+
+
 
 #### Integration into EasyGraph
 
@@ -137,3 +145,4 @@ After integrating, compile EasyGraph and run existing or new datasets.
 export EASYGRAPH_ENABLE_GPU="True"
 pip install ./Easy-Graph/
 ```
+
