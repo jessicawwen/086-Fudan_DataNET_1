@@ -1,6 +1,7 @@
 # 086-Fudan_DataNET_1
 
 ### Performance Optimization for Graph Analysis on Open Data
+![image](https://github.com/jessicawwen/086-Fudan_DataNET_1/blob/main/openrank.jpg)
 
 **EasyGraph** is a high-performance graph analytics library optimized for large-scale graph processing. Designed to efficiently handle open data, this library leverages GPU acceleration to provide swift implementations of various graph algorithms and supplements EasyGraph with GPU versions of several critical functions, including PageRank, Minimum Spanning Tree (MST), clustering coefficients, and structural hole-related metrics.
 
