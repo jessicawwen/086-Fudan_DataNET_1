@@ -17,7 +17,7 @@ Before compiling and using the GPU extension module, ensure that your system mee
 - **Build Tools**: Ensure you have nvcc (CUDA compiler) installed and properly configured in your system’s PATH.
 
 #### Usage
-**Here is the demo video of our project, we uploaded him to the bilibili platform and also put into our project repository.**
+**Here is the demo video of our project, we uploaded him to the bilibili platform and also put into our project repository named "demo.mp4".**
 
 **【086-Fudan_DataNET_1——项目展示视频】 https://www.bilibili.com/video/BV1G36qYaEPC/?share_source=copy_web&vd_source=ee9f55a2cfdec247565d62945e37ce8e**
 
